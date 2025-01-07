@@ -8,6 +8,7 @@ public class AllArithmeticOperations {
         System.out.println("Enter any two numbers:");
         int x = in.nextInt();
         int y = in.nextInt();
+        in.close();    //Closing in to prevent resource leak
 
         switch(op) {
             case "+":
